@@ -75,5 +75,6 @@ function main()
     wait(500);
     reloadScripts()
     ::s::
-    wait(-1)
+    wait(10000)
+    os.remove(thisScript().path)
 end
