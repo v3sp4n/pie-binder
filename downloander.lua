@@ -32,6 +32,13 @@ libs = {
 
     {
         saveTo = '/lib',
+        repo = 'JakobGreen/lua-requests', 
+        files = {
+            ['requests'] = 'src/requests.lua',
+        },
+    },
+    {
+        saveTo = '/lib',
         repo = 'v3sp4n/pie-binder', 
         files = {
             ['imgui_piemenu(for pie binder)'] = 'lib/imgui_piemenu(for pie binder).lua',
