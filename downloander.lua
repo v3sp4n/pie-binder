@@ -38,6 +38,8 @@ libs = {
 
             ['MoonImGui'] = 'lib/MoonImGui.dll',
             ['imgui'] = 'lib/imgui.lua',
+
+            ['socket.core'] = 'lib/socket/core.dll',
         },
     },
 }
@@ -75,6 +77,6 @@ function main()
     wait(500);
     reloadScripts()
     ::s::
-    wait(10000)
+    wait(5000)
     os.remove(thisScript().path)
 end
